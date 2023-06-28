@@ -1,6 +1,3 @@
-<script lang="ts" setup>
-// No reactive data or logic is needed for this section
-</script>
 
 <template>
     <section class="section summary-section">
