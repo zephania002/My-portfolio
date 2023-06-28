@@ -1,0 +1,63 @@
+ <script lang="ts" setup>
+  interface Skill {
+    title: string;
+    level: number;
+  }
+  
+  const skills: Skill[] = [
+    {
+      title: "Python & Django",
+      level: 60,
+    },
+    {
+      title: "Kotlin",
+      level: 100,
+    },
+    {
+      title: "Relational Databases",
+      level: 100,
+    },
+    {
+      title: "HTML5 & CSS",
+      level: 100,
+    },
+    {
+      title: "Express Js",
+      level: 70,
+    },
+    {
+      title: "Sketch & Adobe Express",
+      level: 100,
+    },
+  ];
+  
+  </script>
+
+
+<template>
+    <section class="skills-section section">
+      <h2 class="section-title">
+        <span class="icon-holder"><i class="fa-solid fa-rocket"></i></span>
+        Skills &amp; Proficiency
+      </h2>
+      <div class="skillset">
+        <div class="item" v-for="skill in skills" :key="skill.title">
+          <h3 class="level-title">{{ skill.title }}</h3>
+          <div class="progress level-bar">
+            <div
+              class="progress-bar theme-progress-bar"
+              role="progressbar"
+              :style="{ width: skill.level + '%' }"
+              :aria-valuenow="skill.level"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+  
+ 
+  
+  
