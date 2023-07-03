@@ -26,6 +26,14 @@
       level: 75,
     },
     {
+      title: "Vue Js",
+      level: 80,
+    },
+    {
+      title: "Golang",
+      level: 60,
+    },
+    {
       title: "Sketch & Adobe Express",
       level: 100,
     },
