@@ -17,7 +17,7 @@ const contact: Contact = {
   phone: "+254723441923",
   linkedin: {
     userName: "Stephen Wanjala",
-    link: "https://www.linkedin.com/in/stephen-wanjala-0b0b3a1b2/",
+    link: "https://www.linkedin.com/in/wanjalastephen5/",
   },
   github: {
     userName: "stephenWanjala",
@@ -42,7 +42,7 @@ const phoneLink = `tel:${contact.phone}`;
       <ul class="list-unstyled contact-list">
         <li class="email">
           <i class="fa-solid fa-envelope"></i
-          ><a :href="contact.email">{{contact.email }}</a>
+          ><a :href="'mailto:' + contact.email" target="_blank">{{contact.email}}</a>
         </li>
         <li class="phone">
           <i class="fa-solid fa-phone"></i
