@@ -7,12 +7,8 @@
       </h2>
       <div class="summary">
         <ul>
-          <li>Devised documentation for each app, detailing operation aspects, functions, capabilities and features.</li>
-          <li>Designed user interfaces that engaged multiple senses and produced immersive experiences.</li>
-          <li>Supported team members with one-on-one and group trainings.</li>
-          <li>Provided dedicated support and timely issue resolution to clients following successful app launch.</li>
-          <li>Used specific code versioning tools to manage and implement changes to programs.</li>
-          <li>Incorporated offline storage, performance tuning, and threading into apps for seamless use.</li>
+          <li>Enthusiastic junior Android developer with a strong foundation in mobile app development using Jetpack Compose. Proficient in Python Django &amp; Kotlin Ktor for backend development and skilled in crafting dynamic web interfaces with Vue.js.</li>
+          <li> Committed to continuous learning, innovation, and creative problem-solving. Eager to contribute to impactful projects that leverage cutting-edge technologies. Open to collaborative opportunities to create exceptional digital experiences.</li>
         </ul>
       </div><!--//summary-->
     </section>
