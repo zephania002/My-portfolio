@@ -9,7 +9,7 @@ const educations: Education[] = [
   {
     degree: "Bsc. Information Technolgy",
     school: "Maseno University",
-    duration: "2019 - present",
+    duration: "2020 - present",
   },
   {
     degree: "Kenya Certificate of Secondary Education",

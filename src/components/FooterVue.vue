@@ -11,7 +11,7 @@ const currentYear = ref(new Date().getFullYear());
         <div class="text-center">
             <small class="copyright">
                 <i class="fa fa-copyright" aria-hidden="true"></i>
-                wanjala stephen {{ currentYear }}
+                Wanjala Stephen {{ currentYear }}
             </small>
         </div>
     </footer>
