@@ -3,6 +3,7 @@ import SectionSkills from './SectionSkills.vue';
 import  SideBarVue from './SideBar.vue';
 import SectionSummary from './SectionSummary.vue';
 import SectionExperiences from './SectionExperiences.vue';
+import Projects from './Projects.vue';
 
 </script>
 <template>
@@ -12,6 +13,7 @@ import SectionExperiences from './SectionExperiences.vue';
             <SectionSummary/>
     
             <SectionExperiences/>
+            <Projects/>
             
             <SectionSkills />
 

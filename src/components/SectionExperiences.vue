@@ -34,26 +34,9 @@ const experiences: Experience[] = [
   },
 ];
 
-const projects: Project[] = [
-  {
-    title: "No-shame",
-    link: "https://github.com/stephenWanjala/No-shame",
-    tagline: "An application to monitor and track women's menstrual cycle.",
-  },
-  {
-    title: "msu-gdsc",
-    link: "https://github.com/stephenWanjala/GdSc_msu",
-    tagline: "An application for the Maseno Google Developer Student Club.",
-  },
-  {
-    title: "Medihelp",
-    link: "https://github.com/stephenWanjala/medi-help",
-    tagline: "An application to link users/patients to healthcare doctors and provide medical support or advice.",
-  },
-  // more projects
-];
 
-const projectsIntro: string = "Currently ongoing projects";
+
+const projectsIntro: string = "Work in progress";
 
 </script>
   
@@ -82,20 +65,21 @@ const projectsIntro: string = "Currently ongoing projects";
       </div><!--//item-->
     </section><!--//section-->
 
-    <section class="section projects-section">
+    <!-- <section class="section projects-section">
       <h2 class="section-title">
         <span class="icon-holder"><i class="fa-solid fa-archive"></i></span>
         Projects
       </h2>
       <div class="intro">
         <p>{{ projectsIntro }}</p>
-      </div><!--//intro-->
-      <div class="item" v-for="project in projects" :key="project.title">
+      </div>//intro
+     // <div class="item" v-for="project in projects" :key="project.title">
         <span class="project-title">
           <a :href="project.link" target="_blank">{{ project.title }}</a>
         </span>
         - <span class="project-tagline">{{ project.tagline }}</span>
-      </div><!--//item-->
-    </section>
+      </div>//item
+    </section> 
+    //section-->
   </div>
 </template>
