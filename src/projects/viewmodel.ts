@@ -75,7 +75,7 @@ export function getProjectWithStars (onFinish:projectWithStarsCallBack){
                 });
 
                 onFinish(newProjects);
-                console.log(newProjects.forEach((project)=>{console.log(project.stars)}));
+                // console.log(newProjects.forEach((project)=>{console.log(project.stars)}));
             }
         })
         .catch((error) => {console.error(error)});

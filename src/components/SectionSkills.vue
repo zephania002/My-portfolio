@@ -13,6 +13,7 @@
       title: "Kotlin",
       level: 100,
     },
+    
     {
       title: "Relational Databases",
       level: 100,
@@ -28,6 +29,10 @@
     {
       title: "Vue Js",
       level: 80,
+    },
+    {
+      title : "React Js",
+      level : 70,
     },
     {
       title: "Golang",
