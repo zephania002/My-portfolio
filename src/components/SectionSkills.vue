@@ -13,7 +13,15 @@
       title: "Kotlin",
       level: 100,
     },
-    
+    {
+      title : "Kotlin jetpack compose",
+      level : 80,
+    },
+    {
+      title : "Kotlin Ktor & Sping",
+      level : 70,
+    },
+
     {
       title: "Relational Databases",
       level: 100,
