@@ -11,24 +11,24 @@
     },
     {
       title: "Kotlin",
-      level: 100,
+      level: 95,
     },
     {
-      title : "Kotlin jetpack compose",
+      title : "Kotlin jetpack Compose",
       level : 80,
     },
     {
-      title : "Kotlin Ktor & Sping",
+      title : "Kotlin Ktor & Spring",
       level : 70,
     },
 
     {
       title: "Relational Databases",
-      level: 100,
+      level: 95,
     },
     {
       title: "HTML5 & CSS",
-      level: 100,
+      level: 95,
     },
     {
       title: "Express Js",
@@ -48,7 +48,7 @@
     },
     {
       title: "Sketch & Adobe Express",
-      level: 100,
+      level: 95,
     },
   ];
   
@@ -72,7 +72,7 @@
               :aria-valuenow="skill.level"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            >{{ skill.level }}%</div>
           </div>
         </div>
       </div>
