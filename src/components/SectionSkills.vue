@@ -56,7 +56,7 @@
 
 
 <template>
-    <section class="skills-section section">
+    <section class="skills-section section mt-3">
       <h2 class="section-title">
         <span class="icon-holder"><i class="fa-solid fa-rocket"></i></span>
         Skills &amp; Proficiency
